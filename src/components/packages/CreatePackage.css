@@ -1,0 +1,48 @@
+/* src/components/packages/CreatePackage.css */
+
+.create-package-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-package-container h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .create-package-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-package-form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .create-package-form input,
+  .create-package-form select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .create-package-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-package-form button:hover {
+    background-color: #0056b3;
+  }
+  

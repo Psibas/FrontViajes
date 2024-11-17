@@ -1,0 +1,86 @@
+/* src/components/Vuelos/VueloDetalles.css */
+.vuelo-detalles-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vuelo-detalles-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .vuelo-detalles-container p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .reservation-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+  
+  .reservation-options label {
+    font-size: 1.1rem;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .reservation-options input {
+    width: 100px;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .total-price {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    background-color: #eaf4ff;
+  }
+  
+  .book-button {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .book-button:hover {
+    background-color: #218838;
+  }
+  

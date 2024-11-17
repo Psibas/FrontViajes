@@ -1,0 +1,99 @@
+.hotels-container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hotels-container h2 {
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* Estilo de los filtros */
+.filter {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: 500;
+  color: #555;
+}
+
+select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  background-color: #fff;
+  transition: border-color 0.3s;
+}
+
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Lista de Hoteles Filtrados */
+.hotels-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Tarjeta de cada hotel */
+.hotel-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.hotel-card:hover {
+  transform: scale(1.03);
+}
+
+.hotel-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.hotel-info {
+  padding: 1rem;
+  text-align: center;
+}
+
+.hotel-info h3 {
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.hotel-info p {
+  color: #555;
+  font-size: 1rem;
+}
+
+.hotel-price {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+.no-hotels-message {
+  text-align: center;
+  color: #999;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}

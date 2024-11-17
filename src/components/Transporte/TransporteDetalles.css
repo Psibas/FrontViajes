@@ -1,0 +1,54 @@
+/* src/components/Transporte/TransporteDetalles.css */
+.transporte-details-container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .transporte-details-container h2 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .booking-section {
+    margin-top: 1rem;
+  }
+  
+  .booking-section label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .booking-section input {
+    width: 60px;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    text-align: center;
+  }
+  
+  .total-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745;
+    margin-top: 1rem;
+  }
+  
+  .book-button {
+    padding: 0.8rem 2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-button:hover {
+    background-color: #0056b3;
+  }
+  
